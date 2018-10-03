@@ -36,3 +36,10 @@ let obs = new IntersectionObserver(function(entries, observer) {
 }, opts)
 
 obs.observe(document.querySelector('.talent'))
+
+let bathala = new Glide('.glide.bathala').mount({
+  type: 'carousel'
+})
+let ilawa = new Glide('.glide.ilawa').mount({
+  type: 'carousel'
+})
