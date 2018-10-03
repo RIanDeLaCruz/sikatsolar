@@ -4,11 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Sikat Solar</title>
+    <link rel="stylesheet" href="./fonts.css" type="text/css" media="all" />
     <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
     <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@glidejs/glide@3.2.3/dist/css/glide.core.min.css"
+      type="text/css" media="all" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@glidejs/glide@3.2.3/dist/css/glide.theme.min.css"
+      type="text/css" media="all" />
   </head>
   <body>
     <section class="fade">
@@ -39,6 +48,9 @@
       </section>
     </section>
     <section class="poverty">
+      <div class="vid">
+        <video src="./img/Sikat Solar Loop.mp4" autoplay="autoplay" loop></video>
+      </div>
       <div class="text">
         <h1>Addressing energy poverty</h1>
         <p>
@@ -95,7 +107,9 @@
     <section class="talent">
       <div class="talent_mask">
         <section id="talent_title" class="talent_tile">
-          <img src="./img/17522824_1621901137838057_8693793860456495833_n.jpg" alt="">
+          <div class="title_image">
+            <img src="./img/12.jpg" alt="">
+          </div>
           <section>
             <h1>Harnessing the talent of the Filipino People</h1>
             <p>
@@ -114,20 +128,148 @@
           <!--This appends/makes visible the other items-->
         </section>
         <section id="talent_2" class="talent_tile">
-          <img src="./img/17522824_1621901137838057_8693793860456495833_n.jpg" alt="">
+          <div class="glide bathala">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/bathala/IMG_9940.JPG" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/bathala/IMG_9896.JPG" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/bathala/IMG_9932.JPG" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/bathala/IMG_9936.JPG" alt="">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <span><i class="fas fa-chevron-left"></i></span>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <span><i class="fas fa-chevron-right"></i></span>
+              </button>
+            </div>
+          </div>
           <section>
-            <h1>Harnessing the talent of the Filipino People</h1>
-            <p>
-            Sikat is committed to to taking a proactive role in addressing&nbsp;
-            this urgent issue of energy poverty in the Philippines. Serving&nbsp;
-            as a catalyst in developing innovative and sustainable RE&nbsp;
-            solutions for far flung and off-grid communities, we execute&nbsp;
-            programs designed to harness the creativity and talent of the&nbsp;
-            Filipino youth while promoting the study and application of RE sources.
+            <h1>Bathala Rocket Stove</h1>
+            <h2>A gift to the Dumagats</h2>
+            <p class="bold">
+              Team Carding from Mapua University
             </p>
-            <a href="#" class="bordered_link">
-              View Winning Projects
+            <p>
+            After winning 1st Place in the 2015 Sikat Design Challenge, Team
+            Carding went on to pursue the prototype development of their project
+            with a 1M Research Grant from US-AID.
+            <br/>
+            <br/>
+            The Bathala Rocket Stove is a communal stove features two rocket
+            burners for cooking, and is able to produce up to 5-watts of energy,
+            charge phones and small devices, and distill up to 2 liters of water
+            for 25 families. This set up emits less smoke and purifies water for
+            the Dumagats, thus improving the community’s overall health and safety
+            without taking away their tradition of communal cooking.
+            <br/>
+            <br/>
+            The device was turned over to the community in Norzagaray, Bulacan
+            last October 2017 and is currently in the works for further
+            prototyping and field testing.
+            </p>
+          </section>
+          <section class="second_section">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/0XpKpgFS35c" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <a href="https://youtu.be/1xWHR3xqbtI" class="bordered_link"
+              style="right:24ch;">
+              Watch ANC Feature
+            </a>
+            <a href="#talent_3" class="bordered_link">
+              Next Project
               <i class="fas fa-chevron-right"></i>
+            </a>
+          </section>
+          <!--This appends/makes visible the other items-->
+        </section>
+        <section id="talent_3" class="talent_tile">
+          <div class="glide ilawa">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/17522824_1621901137838057_8693793860456495833_n.jpg" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide__image">
+                    <img src="./img/16708339_1170439636387831_2127873105138554342_n.jpg" alt="">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <span><i class="fas fa-chevron-left"></i></span>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <span><i class="fas fa-chevron-right"></i></span>
+              </button>
+            </div>
+          </div>
+          <section>
+            <h1>iLawa</h1>
+            <h2>Light from the Laguna Lake</h2>
+            <p class="bold">
+            Team Blade TIP
+            <br/>
+            from the Technological University of the Philippines
+            </p>
+            <p>
+            Brgy Tuna in Talim Island, Rizal have suffered greatly from power
+            outages in their area that affect their main livelihood of fishing in
+            Laguna Lake. The team produced a device that utilizes the community’s
+            greatest resource, the lake water.
+            <br/>
+            <br/>
+            The device is an electricity-generating microbial battery system that
+            features a submersible metal-air battery turned inside out. The
+            battery exposes electrodes to a body of water that serves as the
+            electrolyte. A buoy holds the batteries afloat while they harvest
+            electricity for LED lights attached to the device.
+            <br/>
+            <br/>
+            The project highlights the ingenious use of discarded materials to
+            create the device. Ilawa’s by-product also offers the potential to
+            alleviate the worsening algal blooms that affect their fishing.
+            <br/>
+            <br/>
+            The team has recently applied for a Fund Grant with the Department of
+            Science and Technology (DOST) to do further development of the device
+            and eventual field-testing in Brgy. Tuna. 
+            </p>
+          </section>
+          <section class="second_section">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/0z3i7drDJMI" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <a href="https://youtu.be/gCIOj1RJLnQ" class="bordered_link"
+              style="right:28ch;">
+              Watch CNN Feature
+            </a>
+            <a href="#talent_title" class="bordered_link">
+              <i class="fas fa-chevron-left"></i>
+              Back to Homepage
             </a>
           </section>
           <!--This appends/makes visible the other items-->
@@ -201,6 +343,7 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="./jquery.mousewheel.js"></script>
     <script src="./smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/@glidejs/glide@3.2.3/dist/glide.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
